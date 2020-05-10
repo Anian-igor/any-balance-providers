@@ -13,7 +13,7 @@ var g_headers = {
 
 function main() {
 	var prefs = AnyBalance.getPreferences();
-	var baseurl = 'https://cbilling.tv/';
+	var baseurl = 'https://cbilling.biz/';
 	AnyBalance.setDefaultCharset('utf-8');
 
 	AB.checkEmpty(prefs.login, 'Введите логин!');
